@@ -1,6 +1,6 @@
 # Billboard Exposure Analysis
 
-Portfolio-ready version of a master's project on billboard exposure analysis, prepared for public presentation and portfolio use.
+Portfolio-ready version of a project on billboard exposure analysis, prepared for public presentation and portfolio use.
 
 ## Research Question
 
