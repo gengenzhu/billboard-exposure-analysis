@@ -1,35 +1,65 @@
 # Billboard Exposure Analysis
 
-This repository is a portfolio-ready version of a master's project on billboard exposure analysis, prepared for job and PhD applications.
+Portfolio-ready version of a master's project on billboard exposure analysis, prepared for public presentation and portfolio use.
 
-## Project Overview
+## Research Question
 
-The project investigates billboard exposure patterns by combining image-based analysis, spatial context, and deprivation indicators. It is structured as a concise public-facing repository that highlights the research question, analytical workflow, and main outputs without including large raw datasets or model artifacts.
+How can billboard exposure be analysed by combining image-based methods, spatial context, and deprivation indicators?
+
+This project investigates the spatial distribution and social patterning of billboard exposure, with a focus on linking visual features, mapped locations, and area-level deprivation measures.
+
+## Project Snapshot
+
+![Ground truth map](figures/Ground_Truth.png)
+
+![VGG and IMD output](figures/Vgg_with_IMD.png)
+
+![Exposure by IMD group](figures/imd_exposure_stacked_bar_100.png)
+
+## Methods
+
+- Image-based analysis to identify and classify billboard-related features
+- GIS workflow to map billboard locations and spatial context
+- Integration of IMD-linked area measures for comparative analysis
+- Notebook-based analysis for transparent interpretation and reporting
+
+## Key Findings
+
+- Billboard exposure patterns can be studied more effectively when image outputs are interpreted together with mapped spatial context.
+- Spatial inequalities become clearer when exposure indicators are compared across deprivation-linked groups.
+- Visual outputs and GIS layers provide a stronger research narrative than tabular results alone.
+
+## My Contribution
+
+- Designed and structured the analysis workflow
+- Conducted spatial analysis and GIS project preparation
+- Organised notebook-based interpretation and reporting
+- Produced figures for communicating results clearly to academic and non-technical audiences
 
 ## Repository Structure
 
-- `notebooks/`: main notebook used for analysis and interpretation
+- `notebooks/`: main analysis notebook
 - `figures/`: selected figures for quick review
 - `qgis/`: GIS project file
-- `report/`: final project report in PDF format
+- `report/`: final PDF report
 
-## Included Materials
+## Files Included
 
-- A cleaned analysis notebook
-- Key output figures
-- The GIS project file
-- A PDF report suitable for academic or professional review
+- [Main notebook](notebooks/billboard_exposure_analysis.ipynb)
+- [Project report](report/Billboards.pdf)
+- [QGIS project](qgis/billboards.qgz)
 
 ## Data Availability
 
-Large datasets, compressed archives, and model weight files are intentionally excluded from this public version because of file size and repository suitability constraints.
+Large datasets, compressed archives, and model weight files are excluded from this public version because of file size and repository suitability constraints.
 
-If needed for academic review, a fuller version can be shared separately.
+A fuller version can be shared separately for academic review if needed.
 
 ## Skills Demonstrated
 
-- Spatial analysis and GIS workflow design
-- Research framing and quantitative interpretation
-- Notebook-based analytical reporting
-- Visual communication of findings
-
+- Spatial analysis
+- GIS workflow design
+- Research framing
+- Quantitative interpretation
+- Notebook-based reporting
+- Visual communication
